@@ -47,7 +47,7 @@ int main(int argc, char **argv) {
     drop(drop(reset(drop(reset(reset(nullptr))))));
     problems[2] = std::move(RECORDS);
 
-    // ---- 不要修改以上代码 ----
+    // ---- 不要修改以上代码 ----//
 
     std::vector<const char *> answers[]{
         {"fd"},
