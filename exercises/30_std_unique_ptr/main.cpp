@@ -62,6 +62,7 @@ int main(int argc, char **argv) {
     for (auto i = 0; i < 3; ++i) {
         ASSERT(problems[i].size() == answers[i].size(), "wrong size");
         for (auto j = 0; j < problems[i].size(); ++j) {
+            printf("problems[%d][%d] = %s\n", i, j, problems[i][j].c_str());
             ASSERT(std::strcmp(problems[i][j].c_str(), answers[i][j]) == 0, "wrong location");
         }
     }
